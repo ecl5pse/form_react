@@ -1,0 +1,59 @@
+body{
+    background-color: #b3d4fc;
+
+}
+
+.header{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+
+    font-family: 'Lacquer', monospace;
+    justify-content: center;
+    align-content: center;
+    max-width: 320px;
+    display: flex;
+    flex-direction:column;
+    font-size: 14px;
+    margin:100px auto;
+    min-height: 100px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 16px -2px rgba(0,0,0,0.75);
+
+}
+.name {
+
+    font-family: 'Lacquer', monospace;
+    flex: 1 0 auto;
+    overflow: hidden;
+    padding: 9px  7px 8px;
+}
+.surname{
+
+    font-family: 'Lacquer', monospace;
+    flex: 1 0 auto;
+    padding: 9px  7px 8px;
+}
+.email{
+
+    font-family: 'Lacquer', monospace;
+    flex: 1 0 auto;
+    padding: 9px 7px 8px;
+}
+.password{
+
+    font-family: 'Lacquer', monospace;
+    flex: 1 0 auto;
+    padding: 9px 7px 8px;
+}
+
+.button{
+    font-family: 'Lacquer', monospace;
+    font-size: 15px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    border: 0;
+}
