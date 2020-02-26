@@ -2,11 +2,8 @@ import React from 'react';
 import styles from './App.module.css';
 
 class App extends React.Component{
-
-
 constructor(props) {
   super(props);
-
   this.state ={
     data: {
       firstName: '',
@@ -54,7 +51,9 @@ sendRequest = e =>{
         });
       } )
 
-      .catch(e =>{console.error(e)})
+      .catch(e =>{console.error(e)});
+
+  postMessage('ok')
 };
 
 
