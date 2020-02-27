@@ -52,8 +52,6 @@ sendRequest = e =>{
       } )
 
       .catch(e =>{console.error(e)});
-
-  postMessage('ok')
 };
 
 
@@ -66,7 +64,7 @@ render() {
           <input type="text" value={this.state.data.lastName} onChange={this.handleChange} name="lastName" placeholder="Surname" className={styles.surname}/>
           <input type="email" value={this.state.data.email} onChange={this.handleChange} name="email" placeholder="Email" className={styles.email}/>
           <input type="password" value={this.state.data.password} onChange={this.handleChange} name="password" placeholder="Password" className={styles.password}/>
-          <input type="button" onClick={this.sendRequest} value={'Sign up'} className={styles.button}/>
+          <input type="button" onClick={this.sendRequest} value={'Sign up'} className={styles.button} contextMen/>
         </form>
           </div>
 
